@@ -3,24 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning tailwind | Just for fun</title>
-    <link href="./output.css" rel="stylesheet">
+    <title>Home - This is a fun User Interface project for learning Tailwind css.</title>
+    <link href="./css/output.css" rel="stylesheet">
 </head>
 <body>
     <div class ="w-screen h-screen">
-       <div class="flex items-center shadow-lg bg-slate-950 p-4 text-white">
+       <nav class="flex justify-between items-center  bg-slate-800 p-4 text-fuchsia-50">
         <!-- Logo -->
         <div class="logo pl-24 text-3xl ">
             <Strong><a href="../src/index.html">LOGO</a></Strong>
         </div>
         <!-- Action buttons -->
-        <div class="actions flex w-full justify-end pr-20 text-lg">
-            <div class="home mr-6"><a href="../src/index.html">Home</a></div>
-            <div class="about mr-6" >About Us</div>
-            <div class="about mr-6 " >Docs</div>
-            <button type="button " class="bg-transparent border-solid border-2 border-white w-24 rounded hover:bg-sky-600">Login</button>
+        <div class="">
+            <ul class="flex items-center gap-10">
+                <li>
+                    <a href="../src/index.html"><p class="hover:text-sky-400">Home</p></a>
+                </li>
+                <li>
+                    <a href="../src/index.html"><p class="hover:text-sky-400">About Us</p></a>
+                </li>
+                <li>
+                    <a href="../src/index.html"><p class="hover:text-sky-400">Services</p></a>
+                </li>
+                <li>
+                    <a href="../src/index.html"><p class="hover:text-sky-400">Pricing</p></a>
+                </li>
+                <li>
+                    <a href="../src/index.html"><p class="hover:text-sky-400">Contact Us</p></a>
+                </li>
+            </ul>
         </div>
-       </div>
+        <div>
+            <button type="button " class="w-28 h-10 bg-transparent border-solid border-2 border-white rounded hover:text-sky-500 hover:border-sky-500"><a href="./login.html">Login</a></button> 
+        </div>
+    </nav>
     </div>
 </body>
 </html>     
